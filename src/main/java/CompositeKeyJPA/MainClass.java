@@ -31,6 +31,7 @@ public class MainClass {
         
         Enrollment en=em.find(Enrollment.class, ck);
         System.out.println("Enrollment Date: " + en.getEdate());
+        System.out.println("git branch");
         
         em.close();
         emf.close();
